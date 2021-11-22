@@ -8,7 +8,7 @@
 .Portfolio-text {
     position: absolute;
     left: 70px;
-    font-size: calc(3px + 2vmin);
+    font-size: calc(6px + 2vmin);
 }
   
 @media (prefers-reduced-motion: no-preference) {
@@ -25,9 +25,8 @@
     align-items: center;
     justify-content: center;
     font-size: calc(2px + 1.5vmin);
-    color: white;
-    position: fixed;
     width: 100%;
+    text-shadow: 0 0 3px #FF0000;
 }
   
 @keyframes App-logo-spin {
@@ -39,23 +38,66 @@
     }
 }
 
-button {
+.Btn-light {
+   background-image: linear-gradient(
+     to right, #314755 0%, rgba(96,221,142,1) 51%, rgba(24,138,141,1) 100%);
+   margin: 1px;
+   padding: 4px 10px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 2px 1px 20px -3px #eee;
+   border-radius: 10px;
+   display: block;
+   position: absolute;
+   right: 18px;
+   border: none;
+}
+
+
+
+.Btn-dark {
+  background-image: linear-gradient(
+    to right, rgba(26,33,64,1) 0%, rgba(81,84,115,1) 51%, #314755  100%);
+  margin: 1px;
+  padding: 4px 10px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: 2px 1px 20px -3px #eee;
+  border-radius: 10px;
+  display: block;
   position: absolute;
   right: 18px;
-  background-color: #282c34;
   border: none;
 }
 
+ .btn-dark:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+ .btn-light:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
 svg {
-  height: 29px;
+  height: 4vmin;
   width: auto;
   margin-top: 4.5px;
+  transition: width 0.5s, height 0.5s, background-color 0.5s, transform 0.5s;
 }
 
 svg:hover {
   cursor: pointer;
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
-
 
 

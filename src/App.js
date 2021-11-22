@@ -27,9 +27,6 @@ class App extends Component {
         <Body 
           mode={this.state.isDark}
         />
-        {/* <body style={{backgroundColor: this.state.appColour}}>
-          <div className="App-body"></div>
-        </body> */}
       </div>
     );
   }

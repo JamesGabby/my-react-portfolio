@@ -1,4 +1,13 @@
 .App-body {
     height: 1000px;
     width: 100%;
-  }
+    position: relative;
+}
+
+.Dark-bg {
+    background-image: linear-gradient( 94.3deg,  rgba(26,33,64,1) 10.9%, rgba(81,84,115,1) 87.1% );
+}
+
+.Light-bg {
+    background-image: linear-gradient( 109.6deg,  rgba(96,221,142,1) 11.2%, rgba(24,138,141,1) 91.1% );
+}
