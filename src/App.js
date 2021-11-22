@@ -1,25 +1,38 @@
-import logo from './logo.svg';
+import { Component } from 'react';
 import './App.css';
+import { Toolbar } from './components/toolbar/toolbar.component';
+import { Body } from './components/body/body.component';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  constructor() {
+    super();
+
+    this.state = {
+      isDark: false,
+      appColour: ''
+    }
+  }
+
+  handleClick = () => {
+    this.setState({isDark: !this.state.isDark});
+  }
+
+  render() {
+    return (
+      <div className="App">
+        <Toolbar 
+          mode={this.state.isDark} 
+          handleClick={this.handleClick}
+        />
+        <Body 
+          mode={this.state.isDark}
+        />
+        {/* <body style={{backgroundColor: this.state.appColour}}>
+          <div className="App-body"></div>
+        </body> */}
+      </div>
+    );
+  }
 }
 
 export default App;
