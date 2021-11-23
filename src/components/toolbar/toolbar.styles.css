@@ -8,11 +8,17 @@
 }
 
 .Portfolio-text {
-    position: absolute;
-    left: 70px;
+    position: relative;
+    left: -650px;
+    top: 35px;
     font-size: calc(6px + 2vmin);
     text-shadow: 0 0 3px black;
+}
 
+.Name-text {
+  position: relative;
+  text-shadow: 0 0 3px black;
+  bottom: 35px;
 }
   
 @media (prefers-reduced-motion: no-preference) {
@@ -24,6 +30,8 @@
 .App-header {
     background-image: linear-gradient( 94.3deg,  rgba(26,33,64,1) 10.9%, rgba(81,84,115,1) 87.1% );
     min-height: 5vh;
+    max-height: 10vh;
+
     display: flex;
     flex-direction: column;
     align-items: center;
