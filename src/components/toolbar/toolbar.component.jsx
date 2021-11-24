@@ -11,7 +11,7 @@ export function Toolbar(props) {
             <div className="App-header-dark">
                 <img src={logo} className="App-logo" alt="logo" />
                 <p className="Portfolio-text" style={{color: '#49fb35'}}>Portfolio</p>
-                <h1 className="Name-text" style={{color: '#F4F6F0'}}>James Gabbitus</h1>
+                <h1 className="Name-text" style={{color: '#49fb35'}}>James Gabbitus</h1>
                 <button className="Btn-light" title="Light Mode" onClick={props.handleClick}>
                 <BsFillSunFill color='yellow'></BsFillSunFill>
                 </button>   
@@ -22,7 +22,7 @@ export function Toolbar(props) {
         <div className="App-header-light" >
             <img src={logo} className="App-logo" alt="logo" />
             <p className="Portfolio-text" style={{color: '#49fb35'}}>Portfolio</p>
-            <h1 className="Name-text" style={{color: '#F4F6F0'}}>James Gabbitus</h1>
+            <h1 className="Name-text" style={{color: '#49fb35'}}>James Gabbitus</h1>
             <button className="Btn-dark" title="Dark Mode" onClick={props.handleClick}>
                 <FaMoon color='#F4F6F0'></FaMoon>
             </button>   
