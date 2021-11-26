@@ -1,27 +1,104 @@
-.Ay-1 {
-    position: absolute;
-    margin-top: 20%;
-    z-index: 0;
-    left: 45%;
+.Name {
+    padding-top: 300px;
+    font-family: 'Cormorant Garamond', serif;
+    letter-spacing: 5px;
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s; /* Firefox < 16 */
+     -ms-animation: fadein 2s; /* Internet Explorer */
+      -o-animation: fadein 2s; /* Opera < 12.1 */
+         animation: fadein 2s;
 }
 
-.Ay-2 {
-    position: absolute;
-    margin-top: 20%;
-    z-index: 0;
-    left: 45%;
+.Name-d {
+    padding-top: 300px;
+    font-family: 'Cormorant Garamond', serif;
+    letter-spacing: 5px;
     color: white;
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s; /* Firefox < 16 */
+     -ms-animation: fadein 2s; /* Internet Explorer */
+      -o-animation: fadein 2s; /* Opera < 12.1 */
+         animation: fadein 2s;
 }
 
 .Dark-bg {
     width: 100%;
     background-image: linear-gradient( 94.3deg,  rgba(26,33,64,1) 10.9%, rgba(81,84,115,1) 87.1% );
-  
 }
 
 .Light-bg {
     width: 100%;
     background-color: #FFFFFF;
     background-image: linear-gradient(180deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100%);
+}
 
+a {
+    color: grey;
+    display: inline-block;
+    width: 100px;
+    text-decoration: none;
+    padding-right: 14px;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 1000;
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s; /* Firefox < 16 */
+     -ms-animation: fadein 2s; /* Internet Explorer */
+      -o-animation: fadein 2s; /* Opera < 12.1 */
+         animation: fadein 2s;
+         transition: transform 1s;
+}
+
+* {
+    scroll-behavior: smooth;
+}
+
+a:hover {
+    transform: translateY(-2px);
+    text-shadow: 0 4px 17px rgba(0, 0, 0, 0.35);
+    text-decoration: none;
+}
+
+.scroll-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20%;
+    font-size: 3em;
+    font-family: 'Cormorant Garamond', serif;
+    letter-spacing: 5px;
+}
+
+#p-nav {
+    margin-bottom: 700px;  
+    font-size: 3vw;
+    text-shadow: 0 4px 17px rgba(0, 0, 0, 0.35);
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
