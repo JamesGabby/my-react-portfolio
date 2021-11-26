@@ -14,7 +14,14 @@ export function Body(props) {
                 <a href="#page-2" style={{height: '800px', color: 'lightgrey'}}>PROJECTS</a>
                 <a href="#page-3" style={{height: '1200px', color: 'lightgrey'}}>EDUCATION</a>
 
-                <div class="scroll-page" id="page-1"><p id="p-nav">ABOUT</p></div>
+                <div class="scroll-page" id="page-1">
+                    <div id="about">
+                        <p id="p-nav">ABOUT</p>
+                        James is a keen full stack developer with an interest
+                        in web development, UI/UX design and best practices. He loves to explore
+                        new and evolving technologies so that he can implement them in his projects.
+                    </div>
+                </div>
                 <div class="scroll-page" id="page-2"><p id="p-nav">PROJECTS</p></div>
                 <div class="scroll-page" id="page-3"><p id="p-nav">EDUCATION</p></div>
             </div>
@@ -28,7 +35,14 @@ export function Body(props) {
             <a href="#page-2" style={{height: '800px'}}>PROJECTS</a>
             <a href="#page-3" style={{height: '1200px'}}>EDUCATION</a>
 
-            <div class="scroll-page" id="page-1"><p id="p-nav">ABOUT</p></div>
+            <div class="scroll-page" id="page-1">
+                <div id="about">
+                    <p id="p-nav">ABOUT</p>
+                     James is a keen full stack developer with an interest
+                    in web development, UI/UX design and best practices. He loves to explore
+                    new and evolving technologies so that he can implement them in his projects.
+                </div>
+            </div>
             <div class="scroll-page" id="page-2"><p id="p-nav">PROJECTS</p></div>
             <div class="scroll-page" id="page-3"><p id="p-nav">EDUCATION</p></div>
         </div>

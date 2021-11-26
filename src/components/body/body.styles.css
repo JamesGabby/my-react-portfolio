@@ -1,19 +1,7 @@
 .Name {
-    padding-top: 300px;
+    padding-top: 200px;
     font-family: 'Cormorant Garamond', serif;
     letter-spacing: 5px;
-    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: fadein 2s; /* Firefox < 16 */
-     -ms-animation: fadein 2s; /* Internet Explorer */
-      -o-animation: fadein 2s; /* Opera < 12.1 */
-         animation: fadein 2s;
-}
-
-.Name-d {
-    padding-top: 300px;
-    font-family: 'Cormorant Garamond', serif;
-    letter-spacing: 5px;
-    color: white;
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 2s; /* Firefox < 16 */
      -ms-animation: fadein 2s; /* Internet Explorer */
@@ -63,15 +51,28 @@ a:hover {
     align-items: center;
     justify-content: center;
     height: 20%;
-    font-size: 3em;
+    font-size: 30px;
     font-family: 'Cormorant Garamond', serif;
     letter-spacing: 5px;
 }
 
 #p-nav {
-    margin-bottom: 700px;  
-    font-size: 3vw;
+    position: absolute;
+    justify-content: center;
+    margin-bottom: 500px;  
+    font-size: 40px;
     text-shadow: 0 4px 17px rgba(0, 0, 0, 0.35);
+    font-weight: 600;
+}
+
+#about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 200px;
+    letter-spacing: 1px;
+    width: 80%;
+    font-weight: 700;
 }
 
 @keyframes fadein {
