@@ -81,15 +81,15 @@ export function Body(props) {
         <div style={{height: '5000px'}} className="Light-bg">
             <div id="page-0"></div>
             <h1 className="Name">JAMES GABBITUS</h1>
-            <a href="#page-1" style={{height: '370px'}}>ABOUT</a>
-            <a href="#page-2" style={{height: '800px'}}>PROJECTS</a>
-            <a href="#page-3" style={{height: '1200px'}}>EDUCATION</a>
+            <a href="#page-1" style={{height: '370px', color: 'rgb(34, 32, 32)'}}>ABOUT</a>
+            <a href="#page-2" style={{height: '800px', color: 'rgb(34, 32, 32)'}}>PROJECTS</a>
+            <a href="#page-3" style={{height: '1200px', color: 'rgb(34, 32, 32)'}}>EDUCATION</a>
             <div class="material-icons-expand-1">
                 <a href="#page-1" class="material-icons" style={{color: 'black'}}>expand_more</a>
             </div>
 
             <div class="scroll-page" id="page-1">
-                <div id="about" style={{color: 'lightgrey'}}>
+                <div id="about" style={{color: 'rgb(34, 32, 32)'}}>
                     <p id="sections" style={{color: 'black'}}>ABOUT</p>
                      James is a keen full stack developer with an interest
                     in web development, UI/UX design and best practices. He loves to explore
@@ -101,7 +101,7 @@ export function Body(props) {
             </div>
 
             <div class="scroll-page" id="page-2">
-                <div id="about" style={{color: 'lightgrey'}}>
+                <div id="about" style={{color: 'rgb(34, 32, 32)'}}>
                     <p id="sections" style={{color: 'black'}}>PROJECTS</p>
                      James is a keen full stack developer with an interest
                     in web development, UI/UX design and best practices. He loves to explore
@@ -113,7 +113,7 @@ export function Body(props) {
             </div>
 
             <div class="scroll-page" id="page-3">
-                <div id="about" style={{color: 'lightgrey'}}>
+                <div id="about" style={{color: 'rgb(34, 32, 32)'}}>
                     <p id="sections" style={{color: 'black'}}>EDUCATION</p>
                      James is a keen full stack developer with an interest
                     in web development, UI/UX design and best practices. He loves to explore

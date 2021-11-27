@@ -102,7 +102,7 @@ a:hover {
     display: flex;
     flex-direction: row;
     width: 100%;
-    margin-top: 250px;
+    margin-top: 420px;
 }
 
 #contact h3 {
@@ -114,6 +114,8 @@ a:hover {
 @media only screen and (max-width: 500px) {
     #contact {
         flex-direction: column;
+        margin-top: 250px;
+
     }
 }
 
