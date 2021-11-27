@@ -109,7 +109,9 @@ export function Body(props) {
                 <div id="section-headings" style={{color: 'rgb(34, 32, 32)'}}>
                     <p id="sections" style={{color: 'black'}}>PROJECTS</p>
                      <div id="projects">
-                        <h3>Angular Amplify Portfolio<br/><a id="ang-port" href="https://www.jamesgabbitus.com">jamesgabbitus.com</a></h3>
+                        <h3>Angular Amplify Portfolio<br/>
+                            <p><a id="ang-port" href="https://www.jamesgabbitus.com">jamesgabbitus.com</a></p>
+                        </h3>
                         <h3>React E-Commerce Application</h3>
                      </div>
                 </div>
