@@ -17,11 +17,11 @@ export function Body(props) {
             </div>
 
             <div class="scroll-page" id="page-1">
-                <div id="about" style={{color: 'lightgrey'}}>
+                <div id="section-headings" style={{color: 'lightgrey'}}>
                     <p id="sections" style={{color: 'white'}}>ABOUT</p>
-                     James is a keen full stack developer with an interest
-                    in web development, UI/UX design and best practices. He loves to explore
-                    new and evolving technologies so that he can implement them in his projects.
+                     James is a full stack developer proficient in JavaScript frameworks. He is passionate about best development practices
+                     whether it be on the front-end creating excellent UI/UX or on the back-end developing elegant, optimised code. He's experienced
+                     in React, Redux, React Hooks, React Suspense, React Router, GraphQL, Context API, Firebase, Redux-Saga, Stripe + more. 
                 </div>
             </div>
             <div class="material-icons-expand-2">
@@ -29,11 +29,12 @@ export function Body(props) {
             </div>
 
             <div class="scroll-page" id="page-2">
-                <div id="about" style={{color: 'lightgrey'}}>
+                <div id="section-headings" style={{color: 'lightgrey'}}>
                     <p id="sections" style={{color: 'white'}}>PROJECTS</p>
-                     James is a keen full stack developer with an interest
-                    in web development, UI/UX design and best practices. He loves to explore
-                    new and evolving technologies so that he can implement them in his projects.
+                     <div id="projects">
+                        <h3>Angular Amplify Portfolio<br/><a style={{color: 'lightgrey'}} id="ang-port" href="https://www.jamesgabbitus.com">jamesgabbitus.com</a></h3>
+                        <h3>React E-Commerce Application</h3>
+                     </div>
                 </div>
             </div>
             <div class="material-icons-expand-2">
@@ -41,11 +42,15 @@ export function Body(props) {
             </div>
 
             <div class="scroll-page" id="page-3">
-                <div id="about" style={{color: 'lightgrey'}}>
+                <div id="section-headings" style={{color: 'lightgrey'}}>
                     <p id="sections" style={{color: 'white'}}>EDUCATION</p>
-                     James is a keen full stack developer with an interest
-                    in web development, UI/UX design and best practices. He loves to explore
-                    new and evolving technologies so that he can implement them in his projects.
+                    <div id="education">
+                        <img src="https://pngimage.net/wp-content/uploads/2018/06/mmu-png-3.png" style={{width: '15%'}} />
+                        <h3 style={{color: 'white'}}>MSc Software Engineering</h3>
+                        <i><p style={{color: 'lightgrey'}}>Distinction</p></i>
+                        <h3 style={{color: 'white'}}>BA (Hons) Philosophy</h3>
+                        <i><p style={{color: 'lightgrey'}}>2nd Class Honours</p></i>
+                    </div>
                 </div>
             </div>
             <div class="material-icons-expand-2">
@@ -89,11 +94,11 @@ export function Body(props) {
             </div>
 
             <div class="scroll-page" id="page-1">
-                <div id="about" style={{color: 'rgb(34, 32, 32)'}}>
+                <div id="section-headings" style={{color: 'rgb(34, 32, 32)'}}>
                     <p id="sections" style={{color: 'black'}}>ABOUT</p>
-                     James is a keen full stack developer with an interest
-                    in web development, UI/UX design and best practices. He loves to explore
-                    new and evolving technologies so that he can implement them in his projects.
+                    James is a full stack developer proficient in JavaScript frameworks. He is passionate about best development practices
+                     whether it be on the front-end creating excellent UI/UX or on the back-end developing elegant, optimised code. He's experienced
+                     in React, Redux, React Hooks, React Suspense, React Router, GraphQL, Context API, Firebase, Redux-Saga, Stripe + more.
                 </div>
             </div>
             <div class="material-icons-expand-2">
@@ -101,11 +106,12 @@ export function Body(props) {
             </div>
 
             <div class="scroll-page" id="page-2">
-                <div id="about" style={{color: 'rgb(34, 32, 32)'}}>
+                <div id="section-headings" style={{color: 'rgb(34, 32, 32)'}}>
                     <p id="sections" style={{color: 'black'}}>PROJECTS</p>
-                     James is a keen full stack developer with an interest
-                    in web development, UI/UX design and best practices. He loves to explore
-                    new and evolving technologies so that he can implement them in his projects.
+                     <div id="projects">
+                        <h3>Angular Amplify Portfolio<br/><a id="ang-port" href="https://www.jamesgabbitus.com">jamesgabbitus.com</a></h3>
+                        <h3>React E-Commerce Application</h3>
+                     </div>
                 </div>
             </div>
             <div class="material-icons-expand-2">
@@ -113,11 +119,15 @@ export function Body(props) {
             </div>
 
             <div class="scroll-page" id="page-3">
-                <div id="about" style={{color: 'rgb(34, 32, 32)'}}>
+                <div id="section-headings" style={{color: 'rgb(34, 32, 32)'}}>
                     <p id="sections" style={{color: 'black'}}>EDUCATION</p>
-                     James is a keen full stack developer with an interest
-                    in web development, UI/UX design and best practices. He loves to explore
-                    new and evolving technologies so that he can implement them in his projects.
+                    <div id="education">
+                        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/94/Manchester_Metropolitan_University_logo.svg/1200px-Manchester_Metropolitan_University_logo.svg.png" />
+                        <h3>MSc Software Engineering</h3>
+                        <i><p>Distinction</p></i>
+                        <h3>BA (Hons) Philosophy</h3>
+                        <i><p>2nd Class Honours</p></i>
+                    </div>
                 </div>
             </div>
             <div class="material-icons-expand-2">

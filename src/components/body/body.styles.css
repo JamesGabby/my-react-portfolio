@@ -65,7 +65,7 @@ a:hover {
     letter-spacing: 5px;
 }
 
-#about {
+#section-headings {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -111,11 +111,63 @@ a:hover {
     flex-basis: 100%;
 }
 
+#projects {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+#education {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#education p {
+    margin-top: -30px;
+    color: rgb(90, 86, 86);
+    font-size: 1.3rem;
+}
+
+
+
+#education h2, #projects h3 {
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 3px;
+    flex-basis: 100%;
+}
+
+#education h3 {
+    margin-top: 0px;
+}
+
+#education img {
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#projects h3 a {
+    color: black;
+    flex-basis: 100%;
+    margin-right: 150px
+}
+
 @media only screen and (max-width: 500px) {
     #contact {
         flex-direction: column;
         margin-top: 250px;
+    }
 
+    #projects {
+        flex-direction: column;
+    }
+
+    #contact svg {
+        transform: scale(1.3);
     }
 }
 
