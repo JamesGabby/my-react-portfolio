@@ -51,7 +51,7 @@ a:hover {
     align-items: center;
     justify-content: center;
     height: 20%;
-    font-size: 25px;
+    font-size: 1.3rem;
     font-family: 'Cormorant Garamond', serif;
     letter-spacing: 5px;
 }
@@ -59,7 +59,7 @@ a:hover {
 #sections {
     position: absolute;
     justify-content: center;
-    margin-bottom: 500px;  
+    margin-bottom: 480px;  
     font-size: 35px;
     font-weight: 600;
     letter-spacing: 5px;
