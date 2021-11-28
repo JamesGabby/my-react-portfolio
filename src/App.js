@@ -2,6 +2,10 @@ import { Component } from 'react';
 import './App.css';
 import { Toolbar } from './components/toolbar/toolbar.component';
 import { Body } from './components/body/body.component';
+import { Box } from './components/box/three-box';
+import React, { useRef, useState } from 'react'
+import { Canvas, useFrame } from '@react-three/fiber'
+
 
 class App extends Component {
   constructor() {
@@ -27,6 +31,7 @@ class App extends Component {
         <Body 
           mode={this.state.isDark}
         />
+       
       </div>
     );
   }

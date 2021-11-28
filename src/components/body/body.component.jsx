@@ -1,7 +1,11 @@
-import React from "react";
+import React, { useRef, useState } from 'react'
+import ReactDOM from 'react-dom'
+import { Canvas, useFrame } from '@react-three/fiber'
 import './body.styles.css';
+import {Box} from '../box/three-box'
 
 export function Body(props) {
+
     
     const isDark = props.mode;
     if (isDark) { 
@@ -34,6 +38,19 @@ export function Body(props) {
                      <div id="projects">
                         <h3>Angular Amplify Portfolio<br/><a style={{color: 'lightgrey'}} id="ang-port" href="https://www.jamesgabbitus.com">jamesgabbitus.com</a></h3>
                         <h3>React E-Commerce Application</h3>
+                        <h3>Three.js
+                            <p>
+                                <div id="canvas">
+                                    <Canvas>
+                                        <ambientLight intensity={0.5} />
+                                        <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} />
+                                        <pointLight position={[-10, -10, -10]} />
+                                        <Box position={[-1.2, 0, 0]} />
+                                        <Box position={[1.2, 0, 0]} />
+                                    </Canvas>
+                                </div>
+                            </p>
+                        </h3>
                      </div>
                 </div>
             </div>
@@ -79,6 +96,7 @@ export function Body(props) {
                     </a>
                 </h3>
             </div>
+
         </div> //last div
         );
     }
@@ -89,6 +107,7 @@ export function Body(props) {
             <a href="#page-1" style={{height: '370px', color: 'rgb(34, 32, 32)'}}>ABOUT</a>
             <a href="#page-2" style={{height: '800px', color: 'rgb(34, 32, 32)'}}>PROJECTS</a>
             <a href="#page-3" style={{height: '1200px', color: 'rgb(34, 32, 32)'}}>EDUCATION</a>
+            
             <div class="material-icons-expand-1">
                 <a href="#page-1" class="material-icons" style={{color: 'black'}}>expand_more</a>
             </div>
@@ -113,6 +132,19 @@ export function Body(props) {
                             <p><a id="ang-port" href="https://www.jamesgabbitus.com">jamesgabbitus.com</a></p>
                         </h3>
                         <h3>React E-Commerce Application</h3>
+                        <h3>Three.js
+                            <p>
+                                <div id="canvas">
+                                    <Canvas>
+                                        <ambientLight intensity={0.5} />
+                                        <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} />
+                                        <pointLight position={[-10, -10, -10]} />
+                                        <Box position={[-1.2, 0, 0]} />
+                                        <Box position={[1.2, 0, 0]} />
+                                    </Canvas>
+                                </div>
+                            </p>
+                        </h3>
                      </div>
                 </div>
             </div>
@@ -158,8 +190,12 @@ export function Body(props) {
                     </a>
                 </h3>
             </div>
+            
+
+        
         </div> //last div
         
     );
     
 }
+
