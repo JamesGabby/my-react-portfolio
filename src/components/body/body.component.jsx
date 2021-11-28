@@ -62,7 +62,7 @@ export function Body(props) {
                 <div id="section-headings" style={{color: 'lightgrey'}}>
                     <p id="sections" style={{color: 'white'}}>EDUCATION</p>
                     <div id="education">
-                        <img src="https://pngimage.net/wp-content/uploads/2018/06/mmu-png-3.png" style={{width: '15%'}} />
+                        <img src="https://pngimage.net/wp-content/uploads/2018/06/mmu-png-3.png" style={{width: '12%'}} />
                         <h3 style={{color: 'white'}}>MSc Software Engineering</h3>
                         <i><p style={{color: 'lightgrey'}}>Distinction</p></i>
                         <h3 style={{color: 'white'}}>BA (Hons) Philosophy</h3>
