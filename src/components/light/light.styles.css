@@ -1,0 +1,33 @@
+.coa {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.coa #mmu-coa {
+    width: 20%;
+    height: 100%;
+}
+
+.coa #mmu-logo {
+    width: 30%;
+    height: 100%;
+    padding-top: 60px;
+}
+
+.material-icons-expand-3 {
+    position: absolute;
+    width: 100%;
+    margin-top: -300px;
+    color: black;
+    transition: transform 1s;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 500px) {
+    .coa #mmu-logo {
+        width: 50%;
+        margin-top: -50px;
+    }
+}
