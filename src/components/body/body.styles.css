@@ -11,16 +11,15 @@
 
 .Dark-bg {
     width: 100%;
+    margin-top: -20px;
     background-image: linear-gradient( 94.3deg,  rgba(26,33,64,1) 10.9%, rgba(81,84,115,1) 87.1% );
 }
 
 .Light-bg {
     width: 100%;
+    margin-top: -20px;
     background-color: #dfe0dc;
     background-image: linear-gradient(180deg, #dfe0dc 0%, #d1d3c4 50%, #BDC696 100%); 
-
-    /* background-color: #FFFFFF;
-    background-image: linear-gradient(180deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100%); */
 }
 
 a {
