@@ -16,8 +16,8 @@ export function Toolbar(props) {
         return (
             <div class={toolbar ? 'App-header-dark active' : 'App-header-dark'}>
                 <img src={logo} className="App-logo" alt="logo" />
-                <p className="Portfolio-text" style={{color: '#49fb35'}}>Portfolio</p>
-                <h1 className="Name-text" style={{color: '#49fb35'}}>James Gabbitus</h1>
+                {/* <p className="Portfolio-text" style={{color: '#49fb35'}}>Portfolio</p> */}
+                <h1 className="Name-text" style={{color: '#49fb35'}}>{toolbar ? 'James Gabbitus' : 'A Portfolio by'}</h1>
                 <button className="Btn-light" title="Light Mode" onClick={props.handleClick}>
                 <BsFillSunFill color='yellow'></BsFillSunFill>
                 </button>   
@@ -27,8 +27,8 @@ export function Toolbar(props) {
     return (
         <div class={toolbar ? 'App-header-light active' : 'App-header-light'}>
             <img src={logo} className="App-logo" alt="logo" />
-            <p className="Portfolio-text" style={{color: 'white'}}>Portfolio</p>
-            <h1 className="Name-text" style={{color: 'white'}}>James Gabbitus</h1>
+            {/* <p className="Portfolio-text" style={{color: 'white'}}>Portfolio</p> */}
+            <h1 className="Name-text" style={{color: 'white'}}>{toolbar ? 'James Gabbitus' : 'A Portfolio by'}</h1>
             <button className="Btn-dark" title="Dark Mode" onClick={props.handleClick}>
                 <FaMoon color='#F4F6F0'></FaMoon>
             </button>   
