@@ -9,10 +9,10 @@
 .Portfolio-text {
     position: absolute;
     font-size: calc(11px + 2vmin);
-    text-shadow: 0 0 3px black;
     left: 80px;
     font-family: 'Great Vibes', sans-serif;
-  }
+    font-weight: 300;
+}
 
 @media only screen and (max-width: 500px) {
   .Portfolio-text {
@@ -23,9 +23,10 @@
 
 .Name-text {
   position: absolute;
-  text-shadow: 0 0 3px black;
   font-family: 'Great Vibes', sans-serif;
   font-size: calc(22px + 2vmin);
+  letter-spacing: 3px;
+  font-weight: 300;
 }
   
 @media (prefers-reduced-motion: no-preference) {
@@ -34,10 +35,11 @@
     }
 }
   
-.App-header-light {
+#App-header-light {
     position: fixed;
     z-index: 100;
-    background-image: radial-gradient( circle 976px at 51.2% 51%,  rgba(11,27,103,1) 0%, rgba(16,66,157,1) 0%, rgba(11,27,103,1) 17.3%, rgba(11,27,103,1) 58.8%, rgba(11,27,103,1) 71.4%, rgba(16,66,157,1) 100.2%, rgba(187,187,187,1) 100.2% );    
+    background-color: #351431;
+    /* background-image: radial-gradient( circle 976px at 51.2% 51%,  rgba(11,27,103,1) 0%, rgba(16,66,157,1) 0%, rgba(11,27,103,1) 17.3%, rgba(11,27,103,1) 58.8%, rgba(11,27,103,1) 71.4%, rgba(16,66,157,1) 100.2%, rgba(187,187,187,1) 100.2% );     */
     min-height: 4vh;
     height: 9vh;
     top: 0;
@@ -47,10 +49,10 @@
     justify-content: center;
     font-size: calc(2px + 1.5vmin);
     width: 100%;
-    text-shadow: 0 0 3px #FF0000;
+    box-shadow: #351431 0px 0px 15px;
 }
   
-.App-header-dark {
+#App-header-dark {
   z-index: 100;
   position: fixed;
   background-image: radial-gradient( circle 610px at 5.2% 51.6%,  rgba(5,8,114,1) 0%, rgba(7,3,53,1) 97.5% );
@@ -64,6 +66,8 @@
   font-size: calc(2px + 1.5vmin);
   width: 100%;
   text-shadow: 0 0 3px #FF0000;
+  box-shadow: #351431 0px 1px 15px;
+
 }
 
 @keyframes App-logo-spin {
