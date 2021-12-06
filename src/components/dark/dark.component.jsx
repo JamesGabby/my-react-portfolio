@@ -30,8 +30,8 @@ export const DarkMode = () => (
             <div id="section-headings" style={{color: 'lightgrey'}}>
                 <p id="sections" style={{color: 'white'}}>PROJECTS</p>
                 <div id="projects">
-                    <h3>Angular Amplify Portfolio<br/><a style={{color: 'lightgrey'}} id="ang-port" href="https://www.jamesgabbitus.com">jamesgabbitus.com</a></h3>
-                    <h3>React E-Commerce Application</h3>
+                    <h3>Angular Amplify Portfolio<br/><a style={{color: 'lightgrey'}} id="ang-port" target="_blank" rel="noreferrer" href="https://www.jamesgabbitus.com">jamesgabbitus.com</a></h3>
+                    <h3>React E-Commerce Application<br/><a style={{color: 'lightgrey'}} id="crwn" target="_blank" rel="noreferrer" href="https://jamesgabby.github.io/crwn-clothing/">Crwn Clothing</a></h3>
                     <h3>Three.js
                         <p>
                             <div id="canvas">

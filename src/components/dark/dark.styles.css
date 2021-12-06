@@ -25,6 +25,10 @@
     overflow: hidden;
 }
 
+#crwn {
+    width: 100%;
+}
+
 @media only screen and (max-width: 500px) {
     .coa #mmu-logo {
         width: 50%;
