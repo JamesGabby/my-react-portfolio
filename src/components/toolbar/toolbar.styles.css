@@ -8,21 +8,6 @@
     stroke: 1px black;
 }
 
-.Portfolio-text {
-    position: absolute;
-    font-size: calc(11px + 2vmin);
-    left: 80px;
-    font-family: 'Great Vibes', sans-serif;
-    font-weight: 300;
-}
-
-@media only screen and (max-width: 500px) {
-  .Portfolio-text {
-    font-family: 'Great Vibes', sans-serif;
-    left: 40px;
-  }
-}
-
 .Name-text {
   position: absolute;
   font-family: 'Great Vibes', sans-serif;
@@ -48,14 +33,13 @@
     align-items: center;
     justify-content: center;
     font-size: calc(2px + 1.5vmin);
-    width: 100%;
+    width: 99vw;
     box-shadow: #351431 0px 0px 15px;
     transition: height 0.7s;
     z-index: 100;
 }
   
 .App-header-dark {
-  z-index: 100;
   position: fixed;
   background-image: radial-gradient( circle 610px at 5.2% 51.6%,  rgba(5,8,114,1) 0%, rgba(7,3,53,1) 97.5% );
   min-height: 4vh;
@@ -66,7 +50,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(2px + 1.5vmin);
-  width: 100%;
+  width: 99vw;
   text-shadow: 0 0 3px #FF0000;
   box-shadow: #bbb0ba 0px 1px 15px;
   transition: height 0.7s;
