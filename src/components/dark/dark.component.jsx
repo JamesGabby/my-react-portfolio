@@ -33,8 +33,7 @@ export const DarkMode = () => (
                     <h3>Angular Amplify Portfolio<br/><a style={{color: 'lightgrey'}} id="ang-port" target="_blank" rel="noreferrer" href="https://www.jamesgabbitus.com">jamesgabbitus.com</a></h3>
                     <h3>React E-Commerce Application<br/><a style={{color: 'lightgrey'}} id="crwn" target="_blank" rel="noreferrer" href="https://jamesgabby.github.io/crwn-clothing/">Crwn Clothing</a></h3>
                     <h3>Three.js
-                        
-                        <a id="canvas">
+                        <div id="canvas">
                             <Canvas>
                                 <ambientLight intensity={0.5} />
                                 <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} />
@@ -42,8 +41,7 @@ export const DarkMode = () => (
                                 <Box position={[-1.2, 0, 0]} />
                                 <Box position={[1.2, 0, 0]} />
                             </Canvas>
-                        </a>
-                        
+                        </div>
                     </h3>
                 </div>
             </div>
