@@ -1,4 +1,4 @@
-import React, { useEffect, useState }  from "react";
+import React, { useState }  from "react";
 import './toolbar.styles.css';
 import logo from './logo.svg';
 import { FaMoon } from 'react-icons/fa';

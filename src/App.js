@@ -4,14 +4,12 @@ import { Toolbar } from './components/toolbar/toolbar.component';
 import { Body } from './components/body/body.component';
 import React from 'react'
 
-
 class App extends Component {
   constructor() {
     super();
 
     this.state = {
-      isDark: false,
-      appColour: ''
+      isDark: false
     }
   }
 
