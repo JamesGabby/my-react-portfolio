@@ -31,20 +31,18 @@ export const LightMode = () => (
             <div id="section-headings" style={{color: 'rgb(34, 32, 32)'}}>
                 <p id="sections" style={{color: 'black'}}>PROJECTS</p>
                 <div id="projects">
-                <h3>Angular Amplify Portfolio<br/><a id="ang-port" target="_blank" rel="noreferrer" href="https://www.jamesgabbitus.com">jamesgabbitus.com</a></h3>
+                    <h3>Angular Amplify Portfolio<br/><a id="ang-port" target="_blank" rel="noreferrer" href="https://www.jamesgabbitus.com">jamesgabbitus.com</a></h3>
                     <h3>React E-Commerce Application<br/><a id="crwn" target="_blank" rel="noreferrer" href="https://jamesgabby.github.io/crwn-clothing/">Crwn Clothing</a></h3>
                     <h3>Three.js
-                        <p>
-                            <div id="canvas">
-                                <Canvas>
-                                    <ambientLight intensity={0.5} />
-                                    <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} />
-                                    <pointLight position={[-10, -10, -10]} />
-                                    <Box position={[-1.2, 0, 0]} />
-                                    <Box position={[1.2, 0, 0]} />
-                                </Canvas>
-                            </div>
-                        </p>
+                        <div id="canvas">
+                            <Canvas>
+                                <ambientLight intensity={0.5} />
+                                <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} />
+                                <pointLight position={[-10, -10, -10]} />
+                                <Box position={[-1.2, 0, 0]} />
+                                <Box position={[1.2, 0, 0]} />
+                            </Canvas>
+                        </div>
                     </h3>
                 </div>
             </div>
