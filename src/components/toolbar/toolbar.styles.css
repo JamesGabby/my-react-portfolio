@@ -53,6 +53,7 @@
   text-shadow: 0 0 3px #FF0000;
   box-shadow: #bbb0ba 0px 1px 15px;
   transition: height 0.7s;
+  z-index: 100;
   width: 100%;
 }
 
