@@ -19,13 +19,7 @@
   color: #eee;
   position: absolute;
   left: 100px;
-}
-
-.like-amount-clicked {
-  color: rgb(39, 69, 201);
-  position: absolute;
-  left: 100px;
-}
+  font-family: 'Chakra Petch', sans-serif;}
 
 .Name-text {
   position: absolute;
@@ -157,6 +151,12 @@ svg {
 svg:hover {
   cursor: pointer;
   transform: scale(1.1);
+}
+
+@media only screen and (max-width: 500px) {
+  .like, .like-amount {
+      display: none;
+  }
 }
 
 
