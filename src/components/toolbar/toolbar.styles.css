@@ -6,6 +6,27 @@
     stroke: 1px black;
 }
 
+.like {
+  color: #eee;
+  position: absolute;
+  left: 70px;
+  cursor: pointer;
+  transform: scale(0.7);
+
+}
+
+.like-amount {
+  color: #eee;
+  position: absolute;
+  left: 100px;
+}
+
+.like-amount-clicked {
+  color: rgb(39, 69, 201);
+  position: absolute;
+  left: 100px;
+}
+
 .Name-text {
   position: absolute;
   font-family: 'Great Vibes', sans-serif;
