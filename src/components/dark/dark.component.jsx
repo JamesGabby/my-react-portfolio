@@ -4,7 +4,7 @@ import { Box } from '../box/three-box'
 import './dark.styles.css';
 
 export const DarkMode = () => (
-    <div style={{height: '5000px'}} className="Dark-bg">
+    <div style={{height: '5200px'}} className="Dark-bg">
         <div id="page-0"></div>
         <h1 className="Name" style={{color: 'white'}}>JAMES GABBITUS</h1>
         <a href="#page-1" style={{height: '370px', color: 'lightgrey'}}>ABOUT</a>
@@ -50,7 +50,7 @@ export const DarkMode = () => (
             <a href="#page-3" class="material-icons" style={{color: 'white'}}>expand_more</a>
         </div>
 
-        <div class="scroll-page" id="page-3">
+        <div class="scroll-page-3" id="page-3">
             <div id="section-headings" style={{color: 'lightgrey'}}>
                 <p id="sections" style={{color: 'white'}}>EDUCATION</p>
                 <div id="education">
@@ -67,9 +67,12 @@ export const DarkMode = () => (
             </div>
         </div>
         <div class="material-icons-expand-3">
-            <a href="#page-0" class="material-icons" style={{color: 'white'}}>keyboard_arrow_up</a>
+            <a href="#page-4" class="material-icons" style={{color: 'white'}}>expand_more</a>
         </div>
-
+        <div class="scroll-page-4" id="page-4">
+            <div class="material-icons-expand-4">
+            <a href="#page-0" class="material-icons" style={{color: 'white'}}>keyboard_arrow_up</a>
+        
         <div id="contact">
             <h3 style={{color: 'white'}}>jamesgabbitus@gmail.com</h3>
             <h3 style={{color: 'white'}}>+44(0)7519247007</h3>
@@ -92,6 +95,7 @@ export const DarkMode = () => (
                 </a>
             </h3>
         </div>
-
+    </div>
+    </div>
     </div> //last div
 );

@@ -25,6 +25,28 @@
     overflow: hidden;
 }
 
+.scroll-page-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 19%;
+    font-size: 1.3rem;
+    font-family: 'Cormorant Garamond', serif;
+    letter-spacing: 5px;
+    overflow-x: hidden;
+}
+
+.scroll-page-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 12.5%;
+    font-size: 1.3rem;
+    font-family: 'Cormorant Garamond', serif;
+    letter-spacing: 5px;
+    overflow-x: hidden;
+}
+
 #crwn {
     width: 100%;
 }

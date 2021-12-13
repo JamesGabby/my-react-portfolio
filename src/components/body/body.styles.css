@@ -59,6 +59,28 @@ a:hover {
     overflow-x: hidden;
 }
 
+.scroll-page-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 19%;
+    font-size: 1.3rem;
+    font-family: 'Cormorant Garamond', serif;
+    letter-spacing: 5px;
+    overflow-x: hidden;
+}
+
+.scroll-page-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 12.5%;
+    font-size: 1.3rem;
+    font-family: 'Cormorant Garamond', serif;
+    letter-spacing: 5px;
+    overflow-x: hidden;
+}
+
 #sections {
     position: absolute;
     justify-content: center;
@@ -91,6 +113,15 @@ a:hover {
     position: absolute;
     width: 100%;
     margin-top: -350px;
+    color: black;
+    transition: transform 1s;
+    overflow: hidden;
+}
+
+.material-icons-expand-4 {
+    position: absolute;
+    width: 100%;
+    margin-top: 100px;
     color: black;
     transition: transform 1s;
     overflow: hidden;
